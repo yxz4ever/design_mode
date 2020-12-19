@@ -1,11 +1,11 @@
-package com.xrluo;
+package com.xrluo.type02;
 
 import java.util.Objects;
 
 /**
- * 单例设计模式(饿汉模式)
+ * 单例设计模式(静态代码块)
  */
-public class SingletonTest1 {
+public class SingletonTest2 {
     public static void main(String[] args) {
         Singleton singleton = Singleton.getSingleton();
         Singleton singleton1 = Singleton.getSingleton();
@@ -18,12 +18,16 @@ public class SingletonTest1 {
 
 /**
  * 优点: 方法简单,避免线程同步的风险
- * 缺点: 最初就直接创建了,有可能实际运行的程序并没有使用到,造成内存浪费
+ * 缺点: 类加载的时候就存在了,实际环境中有可能没有用到,造成内存的浪费.
  */
 class Singleton {
 
     // 2. 本类内部创建对象实例化
-    private final static Singleton singleton = new Singleton();
+    private final static Singleton singleton;
+
+    static {
+        singleton = new Singleton();
+    }
 
     // 1.构造器私有化
     private Singleton() {
