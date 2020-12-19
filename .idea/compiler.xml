@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="01_singleton_pattern" target="7" />
+      <module name="01_singleton_pattern" target="8" />
       <module name="design_mode" target="1.5" />
     </bytecodeTargetLevel>
   </component>
