@@ -21,6 +21,8 @@
 2. [源码](01_singleton_pattern)
 
 ### 2.4懒汉式(线程安全,同步方法)
+1. [markdown文件](Resource/singleton/2.4懒汉式(线程安全,同步方法).md)
+2. [源码](01_singleton_pattern)
 
 ### 2.5 懒汉式(线程安全,同步代码块)
 
