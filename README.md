@@ -17,20 +17,34 @@
 2. [源码](01_singleton_pattern)
 
 ### 2.3 懒汉式(线程不安全)
+
 1. [markdown文件](Resource/singleton/2.3懒汉式(线程不安全).md)
 2. [源码](01_singleton_pattern)
 
 ### 2.4懒汉式(线程安全,同步方法)
+
 1. [markdown文件](Resource/singleton/2.4懒汉式(线程安全,同步方法).md)
 2. [源码](01_singleton_pattern)
 
-### 2.5 懒汉式(线程安全,同步代码块)
+### 2.5 懒汉式(线程不安全,同步代码块)
+
+1. [markdown文件](Resource/singleton/2.5懒汉式(线程不安全,同步代码块).md)
+2. [源码](01_singleton_pattern)
 
 ### 2.6 双重检查
 
+1. [markdown文件](Resource/singleton/2.6双重检查.md)
+2. [源码](01_singleton_pattern)
+
 ### 2.7 静态内部类
 
+1. [markdown文件](Resource/singleton/2.7静态内部类.md)
+2. [源码](01_singleton_pattern)
+
 ### 2.8 枚举
+
+1. [markdown文件](Resource/singleton/2.8枚举.md)
+2. [源码](01_singleton_pattern)
 
 
 
